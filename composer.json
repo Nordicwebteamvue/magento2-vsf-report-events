@@ -1,0 +1,41 @@
+{
+    "name": "kodbruket/magento2-vsf-report-events",
+    "type": "magento2-component",
+    "license": "MIT License",
+    "authors": [
+      {
+        "name": "Andreas Karlsson",
+        "email": "andreas@kodbruket.se"
+      }
+    ],
+    "version": "1.0.0",
+    "keywords": [
+      "magento",
+      "magento2",
+      "vuestorefront",
+      "vsf"
+    ],
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://repo.magento.com/"
+      }
+    ],
+    "require": {
+      "php": ">=7.0.2",
+      "magento/reports": ">=101.0.0"
+    },
+    "replace": {
+      "kodbruket/module-report-events": "self.version"
+    },
+    "autoload": {
+      "files": [
+        "src/module-vsf-report-events/registration.php"
+      ],
+      "psr-4": {
+        "Kodbruket\\VsfReportEvents\\": "src/module-vsf-report-events"
+      }
+    },
+    "minimum-stability": "alpha",
+    "prefer-stable": true
+  }
