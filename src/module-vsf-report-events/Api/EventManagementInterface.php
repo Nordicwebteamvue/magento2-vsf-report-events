@@ -12,7 +12,7 @@ interface EventManagementInterface
      * @param int|null $subjectId
      * @param int $subtype
      * 
-     * @return string
+     * @return void
      */
     public function postEvent($eventTypeId, $objectId, $subjectId = null, $subtype = 0);
 }
