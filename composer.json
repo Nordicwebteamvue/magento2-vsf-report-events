@@ -23,7 +23,7 @@
     ],
     "require": {
       "php": ">=7.0.2",
-      "magento/reports": ">=101.0.0"
+      "magento/module-reports": ">=101.0.0"
     },
     "replace": {
       "kodbruket/module-report-events": "self.version"
